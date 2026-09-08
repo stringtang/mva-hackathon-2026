@@ -2,6 +2,8 @@
 
 **Proband:** WGS_EX2312012 · **Assembly:** GRCh38 · **Submission:** `stringtang_bub1b-compound-het-unbiased.csv`
 
+**Code:** https://github.com/stringtang/mva-hackathon-2026
+
 ---
 
 ## 1. Summary of the prediction

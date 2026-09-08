@@ -4,6 +4,8 @@
 
 **Proband:** WGS_EX2312012 · **Genotype:** *BUB1B* c.2210T>G p.(Leu737Ter) / c.3006T>G p.(Asn1002Lys), compound heterozygous
 
+**Code:** https://github.com/stringtang/mva-hackathon-2026 · **Pitch video:** https://youtu.be/1amvH7Bh1Ew
+
 > These are hypotheses for follow-up, not evidence that any medicine works. Nothing here is clinical advice, and no proposal below should be acted on outside a properly governed research setting.
 
 ---

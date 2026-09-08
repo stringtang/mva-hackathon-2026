@@ -11,6 +11,8 @@ Entry for **Rare Disease, Real Kid: The MVA Hackathon 2026** (Sage Bionetworks �
 
 ## Reports
 
+- **Repository:** https://github.com/stringtang/mva-hackathon-2026
+- **Pitch video (Track 2):** https://youtu.be/1amvH7Bh1Ew
 - **[report/track1_methods.md](report/track1_methods.md)** — Track 1 methods: unbiased prioritisation, locus audit, structural interpretation, read-level verification, mosaicism assessment, secondary findings, governance, limitations.
 - **[report/track2_report.md](report/track2_report.md)** — Track 2 drug repurposing: mechanism worked from this proband's data, ranked candidates, trial design, stated unknowns.
 - **[report/track2_pitch_script.md](report/track2_pitch_script.md)** — 3-minute pitch script and shot list.

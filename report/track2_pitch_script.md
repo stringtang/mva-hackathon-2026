@@ -1,5 +1,7 @@
 # Track 2 — 3-Minute Pitch Video Script
 
+**Published:** https://youtu.be/1amvH7Bh1Ew
+
 **Constraint:** 3 minutes hard. At ~150 words/min that is **~450 words spoken**. Below is 440.
 **Format:** screen-recorded slides + voiceover. No talking head required.
 **Rule followed throughout:** every claim on screen is one we can defend from the report.
