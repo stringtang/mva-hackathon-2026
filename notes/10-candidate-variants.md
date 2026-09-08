@@ -70,6 +70,6 @@ X 染色体 hom/het = 108,682/8,375（比值 13:1，女性应接近 1:2）+ Y �
 
 ## 提交注意
 
-- proband_id = `WGS_EX2312012`（VCF 样本名；提交前与数据集文档核对）
+- proband_id = **`PROBAND01`**（评分器唯一接受的值；`WGS_EX2312012` 被拒："Unknown proband_id … Only PROBAND01 is accepted"，2026-09-08 实测）
 - VCF 染色体命名无 chr 前缀，提交模板要求 chr15 格式 → 转换
 - EPCR 排序：主候选对 1 行（chrom_1/chrom_2 双列），EPCR 接近 1；secondary findings 另行填行，finding_type=secondary

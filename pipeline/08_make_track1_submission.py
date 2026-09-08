@@ -17,7 +17,7 @@ from pathlib import Path
 BASE = Path("/Users/leotang/test/mva-hackathon")
 OUT = BASE / "submissions"
 OUT.mkdir(exist_ok=True)
-PROBAND = "WGS_EX2312012"
+PROBAND = "PROBAND01"  # 评分器要求的挑战内标识（VCF 样本名为 WGS_EX2312012）
 
 FIELDS = ["proband_id", "chrom_1", "pos_1", "ref_1", "alt_1",
           "chrom_2", "pos_2", "ref_2", "alt_2",
