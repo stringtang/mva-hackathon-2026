@@ -1,0 +1,48 @@
+# v1 phenopacket — MVA Hackathon 2026 proband
+# HPO 术语严格取自官方表型文档（Challenge_Clinical_Phenotype_1.docx）全部 8 项，无增删
+# 性别 = MALE：由 VCF 判定（X 染色体 hom/het 比 13:1 + Y 染色体 13,840 条记录）
+---
+id: WGS_EX2312012
+subject:
+  id: WGS_EX2312012
+  sex: MALE
+phenotypicFeatures:
+  - type:
+      id: HP:0002859
+      label: Rhabdomyosarcoma
+  - type:
+      id: HP:0000121
+      label: Nephrocalcinosis
+  - type:
+      id: HP:0004322
+      label: Short stature
+  - type:
+      id: HP:0001508
+      label: Failure to thrive
+  - type:
+      id: HP:0003202
+      label: Skeletal muscle atrophy
+  - type:
+      id: HP:0001622
+      label: Premature birth
+  - type:
+      id: HP:0001518
+      label: Small for gestational age
+  - type:
+      id: HP:0200067
+      label: Recurrent spontaneous abortion
+htsFiles:
+  - uri: /Users/leotang/test/mva-hackathon/data/WGS_EX2312012_HGWCNDSX7.vcf.gz
+    htsFormat: VCF
+    genomeAssembly: hg38
+metaData:
+  created: '2026-08-26T12:00:00Z'
+  createdBy: mva-hackathon-pipeline
+  resources:
+    - id: hp
+      name: human phenotype ontology
+      url: http://purl.obolibrary.org/obo/hp.owl
+      version: hp/releases/2025
+      namespacePrefix: HP
+      iriPrefix: 'http://purl.obolibrary.org/obo/HP_'
+  phenopacketSchemaVersion: 1.0

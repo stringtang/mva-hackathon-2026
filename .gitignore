@@ -1,0 +1,35 @@
+# ============================================================
+# 受控数据 —— 绝对禁止提交（Hackathon Rules: 不得以任何渠道再分发）
+# ============================================================
+data/
+*.fastq.gz
+*.fastq
+*.vcf.gz
+*.vcf
+*.vcf.gz.tbi
+*.bam
+*.cram
+*.docx
+Challenge_Clinical_Phenotype*
+
+# 参考与注释数据库（体积大且非本项目产物，由脚本下载）
+refs/
+*.zip
+GRCh38*
+clinvar*
+*.fa
+*.fa.fai
+*.gff3.gz
+
+# 运行中间产物
+*.log
+*.tmp
+*.status
+__pycache__/
+.DS_Store
+
+# 凭据 —— 绝不提交
+*key.info
+*.token
+*token*
+.env

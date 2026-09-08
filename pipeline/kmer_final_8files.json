@@ -1,0 +1,56 @@
+{
+ "BUB1B_L737X_c.2210T>G": {
+  "ref": 16,
+  "alt": 16,
+  "depth": 32,
+  "vaf": 0.5
+ },
+ "BUB1B_N1002K_c.3006T>G": {
+  "ref": 11,
+  "alt": 13,
+  "depth": 24,
+  "vaf": 0.542
+ },
+ "DPYD_star2A_rs3918290": {
+  "ref": 38,
+  "alt": 0,
+  "depth": 38,
+  "vaf": 0.0
+ },
+ "DPYD_c2846_rs67376798": {
+  "ref": 40,
+  "alt": 0,
+  "depth": 40,
+  "vaf": 0.0
+ },
+ "DPYD_HapB3_rs75017182": {
+  "ref": 49,
+  "alt": 0,
+  "depth": 49,
+  "vaf": 0.0
+ },
+ "DPYD_Y186C_rs115232898": {
+  "ref": 41,
+  "alt": 0,
+  "depth": 41,
+  "vaf": 0.0
+ },
+ "TPMT_star3C_rs1142345": {
+  "ref": 85,
+  "alt": 0,
+  "depth": 85,
+  "vaf": 0.0
+ },
+ "TPMT_star3B_rs1800460": {
+  "ref": 74,
+  "alt": 0,
+  "depth": 74,
+  "vaf": 0.0
+ },
+ "NUDT15_star3_rs116855232": {
+  "ref": 50,
+  "alt": 0,
+  "depth": 50,
+  "vaf": 0.0
+ }
+}
