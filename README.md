@@ -50,7 +50,7 @@ exomiser/                      analysis config, phenopacket, results
 
 ## Data governance
 
-No individual-level data is in this repository — `data/` and `refs/` are git-excluded. Raw sequence reads and the bulk VCF were processed only by local scripts and never left the machine. An AI assistant was used for analysis design, code, literature synthesis and drafting; the proband data it saw was limited to the supplied phenotype/HPO terms, aggregate statistics, and the finalist variants published in this submission — full disclosure in [track1_methods.md §6](report/track1_methods.md). No contact was attempted with the data subject, family, or MVA Society. All controlled data will be deleted within 30 days of Hackathon close with confirmation emailed to the organisers.
+No individual-level data is in this repository — `data/` and `refs/` are git-excluded. Raw sequence reads and the bulk VCF were processed only by local scripts and never left the machine. An AI assistant was used for analysis design, code, literature synthesis and drafting; the proband data it saw was limited to the supplied phenotype/HPO terms, aggregate statistics, and the finalist variants published in this submission — full disclosure in [track1_methods.md §6](report/track1_methods.md), including that the account's training preference was enabled during analysis and disabled on 8 September 2026. No contact was attempted with the data subject, family, or MVA Society. All controlled data will be deleted within 30 days of Hackathon close with confirmation emailed to the organisers.
 
 ## Acknowledgement
 
