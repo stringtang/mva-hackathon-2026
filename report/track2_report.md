@@ -202,6 +202,12 @@ The alignment-free k-mer verification module (Track 1 methods §2D), including i
 
 ---
 
-## 9. Acknowledgement
+## 9. AI-assistance disclosure
+
+**AI-assistance disclosure** (per the 28 Aug 2026 update to the submission instructions). Provider: **Anthropic**. Product: **Claude Code**, model **Claude Fable 5.1**. Plan: **Max subscription**. The model was used for analysis design, code authoring, literature synthesis and report drafting. Scope of proband data exposed to the model: the supplied phenotype description and HPO terms; aggregate statistics (filter-cascade counts, per-chromosome depth and BAF summaries, k-mer totals); and variant-level detail for the finalist set only — the two *BUB1B* alleles, the twelve ClinVar-conflicting variants reviewed in the ACMG SF screen, and the nine pharmacogenomic loci — all of which appear in this CC BY 4.0 submission. **Not exposed:** raw sequence reads, the bulk VCF, or any genome-wide variant listing; those were processed exclusively by local scripts whose outputs are the aggregates above.
+
+---
+
+## 10. Acknowledgement
 
 This work was made possible through the Hackathon, organized by Sage Bionetworks in partnership with the MVA Society, Hugging Face, and BEACON (The Benchmarking, Evaluation, and Assessment Consortium for Science), with prize sponsorship from AWS and Anthropic. We are deeply grateful to the child and their family who generously contributed their data and their story to advance research into this rare disease. We acknowledge their trust in making this Hackathon possible.

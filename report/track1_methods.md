@@ -173,14 +173,16 @@ No chromosome departs from the ensemble by more than ~3%, which for a mosaic tri
 
 ## 6. Data governance
 
-- All individual-level data processed **locally**; raw sequence and variant-level data were not transmitted to any third-party service, including hosted LLM APIs. Only aggregate statistics and the small number of finalist candidate variants — content destined for this CC BY 4.0 submission anyway — informed the written interpretation.
+- Raw sequence reads and the bulk VCF were processed **locally by scripts only** and were not transmitted to any third-party service. Aggregate statistics and finalist-candidate variant detail — content that appears in this CC BY 4.0 submission — were exposed to an AI assistant as disclosed below.
 - Public resources queried by coordinate/identifier only (Ensembl REST, AlphaFold); annotation databases (ClinVar, Exomiser 2512, GRCh38) were downloaded and run locally.
 - No attempt was made to contact the data subject, family, or MVA Society, per the Hackathon Rules.
 - All data will be deleted within 30 days of Hackathon close, with confirmation emailed to the organisers.
 
 The organisers have since issued formal guidance on this point (FAQ: "Are third-party LLMs allowed with this Hackathon's dataset?", with the detailed answer in the Community discussion). Sage Bionetworks' Chief Privacy Officer draws the distinction between a **processor** — "a service that processes data solely to return a result to you, takes no rights in it, and cannot use it for its own purposes" — and a **recipient**, which "gains the right to use, retain, or learn from the data". Use of an LLM API is permitted where (i) there is no training on inputs or outputs and the provider takes no rights in either, and (ii) retention is limited in time and purpose; zero retention is not required, and short-lived logs for abuse monitoring or debugging are acceptable. Participants must record the provider, plan or tier, and the relevant setting. The deletion obligation extends to systems under participant control, not to a provider's short-lived logs.
 
-The pipeline described here was designed to a stricter standard than this guidance requires, before it was issued: no individual-level data was transmitted to any LLM API at any point. We note the organisers' caution that credit or grant programmes may attach terms overriding an account's defaults — relevant here because Anthropic sponsors the prize credits — and that disabling training is not always complete.
+**AI-assistance disclosure** (per the 28 Aug 2026 update to the submission instructions). Provider: **Anthropic**. Product: **Claude Code**, model **Claude Fable 5.1**. Plan: **Max subscription**. The model was used for analysis design, code authoring, literature synthesis and report drafting. Scope of proband data exposed to the model: the supplied phenotype description and HPO terms; aggregate statistics (filter-cascade counts, per-chromosome depth and BAF summaries, k-mer totals); and variant-level detail for the finalist set only — the two *BUB1B* alleles, the twelve ClinVar-conflicting variants reviewed in the ACMG SF screen, and the nine pharmacogenomic loci — all of which appear in this CC BY 4.0 submission. **Not exposed:** raw sequence reads, the bulk VCF, or any genome-wide variant listing; those were processed exclusively by local scripts whose outputs are the aggregates above.
+
+We note the organisers' caution that credit or grant programmes may attach terms overriding an account's defaults — relevant here because Anthropic sponsors the prize credits — and that disabling training is not always complete.
 
 ## 7. Reproducibility
 
