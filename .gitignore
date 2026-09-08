@@ -36,4 +36,5 @@ __pycache__/
 
 # 视频构建中间产物（成品另行上传 YouTube/Vimeo）
 video/audio/
+video/audio_openai/
 video/*.mp4
